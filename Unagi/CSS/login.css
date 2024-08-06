@@ -1,0 +1,86 @@
+@font-face {
+    font-family: osw;
+    src: url("/Fonts/Oswald-Bold.ttf");
+}
+
+body{
+    background-color: rgb(3, 6, 55);
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 15%;  
+}
+.box{
+    height: 300px;
+    width: 250px;
+    border-radius: 25px;
+    border: 5px solid rgb(145, 10, 103);
+    background-color: rgb(60, 7, 83);
+    box-sizing: border-box;
+    padding: 10px 15px;
+}
+input{
+    width: 200px;
+    border-radius: 2px;
+}
+
+.na{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    color: rgb(3, 6, 55);
+    font-family: osw;
+    font-size: larger;
+
+}
+#user, #pass, ::placeholder{
+    border: none;
+    border-bottom: 2px solid rgb(145, 10, 103);
+    color: rgba(141, 15, 15,0.5);
+    background-color: rgba(0, 0, 0, 0);
+    font-size: medium;
+    font-family: osw;
+}
+
+button{
+    
+    font-size: medium;
+    border-radius: 15px;
+    font-family: osw;
+    background-color: rgb(114, 4, 85);
+    color: rgb(3, 6, 55);
+    border: none;
+    
+   
+}
+button{
+    height: 25px;
+    width: 65px;
+    transition-duration: 1s;
+}
+button:hover{
+    
+    height: 35px;
+    width: 70px;
+    background-color: rgb(3, 6, 55);
+    color: rgb(114, 4, 85);
+    
+}
+
+.b1{
+    padding: 35px 0px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.save{
+    color: rgb(3, 6, 55);
+    color: rgb(60, 7, 83);
+    color: rgb(114, 4, 85);
+    color: rgb(145, 10, 103);
+}
